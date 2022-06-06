@@ -7,7 +7,7 @@ const domain = process.env.PRODUCTION_DOMAIN;
 
 const prodConfig = {
   mode: 'production',
-  output: {
+  output:{
     filename: '[name].[contenthash].js', // hash for cache issues
     publicPath: '/container/latest/',
   },
